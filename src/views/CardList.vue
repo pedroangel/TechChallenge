@@ -243,7 +243,7 @@ export default {
 			maxPokeList: null,
 			temporalList: [],
 			page: 0,
-			pokeListLimits: 8,
+			pokeListLimits: 20,
 			pokemonDetails: null,
 			PaginationBtn: true,
 			checkbox: false,

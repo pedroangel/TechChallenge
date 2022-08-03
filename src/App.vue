@@ -1,9 +1,5 @@
 <template>
 	<nav class="nav-main">
-		<img
-			class="img-logo"
-			v-bind:src="require(`@/assets/images/pokedex_logo.png`)"
-		/>
 		<router-link to="/github"
 			><img
 				class="img-logo-github"
