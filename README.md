@@ -3,7 +3,7 @@ Ing. Pedro A. Alarcon Atencio <br>
 pedroangel126@gmail.com
 
 # Información General
-Esta es una pequeña aplicación web diseñada para mostrar detalladamente .
+Esta es una pequeña aplicación web diseñada en Vuejs para mostrar detalladamente la lista de todos los Pokémon suministrada por la API <a href="https://pokeapi.co/" target="_blank">Poke-API</a>.
 
 # Instalación
 Clonar el repositorio: 
@@ -14,17 +14,16 @@ Ejecuta el comando para descargar todas las librarías necesarias.
 ```sh
 $ npm install
 ```
-
 Una vez instaladas las dependencias, es necesario ejecutar el comando:
 ```sh
 $ npm run serve
 ```
-Para ejecutar el servidor en modo desarrolladores.
+Para ejecutar el servidor en modo desarrollador.
 
 # Build de Producción Hosteado.
-La rama master de este repositorio posee un pipeline configurado en el servicio de Heroku.
+La rama main de este repositorio posee un pipeline configurado en el servicio de Heroku.
 
-<a href="" target="_blank">Pokedex</a>
+<a href="https://techchallenge-pokedex.herokuapp.com/" target="_blank">TechChallenge Pokedex</a>
 
 Esta es la información básica del proceso y las herramientas usadas en el desarrollo del servicio requerido para la Reto Técnica.
 

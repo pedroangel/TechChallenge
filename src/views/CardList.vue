@@ -61,7 +61,7 @@
 		/>
 	</div>
 
-	<div class="pagination-container">
+	<div class="pagination-container bottom">
 		<button v-if="Prev_btn" v-show="PaginationBtn" v-on:click="prevPage">
 			Prev
 		</button>

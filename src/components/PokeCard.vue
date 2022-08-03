@@ -22,8 +22,9 @@
 				<span
 					v-for="(type, index) in pokemon.details.types"
 					:key="index"
+					:class="'bg-' + type.type.name"
 				>
-					{{ index >= 1 ? " / " : "" }} {{ type.type.name }}
+					{{ type.type.name }}
 				</span>
 			</div>
 		</div>
