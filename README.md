@@ -25,7 +25,7 @@ La rama main de este repositorio posee un pipeline configurado en el servicio de
 
 <a href="https://techchallenge-pokedex.herokuapp.com/" target="_blank">TechChallenge Pokedex</a>
 
-Esta es la información básica del proceso y las herramientas usadas en el desarrollo del servicio requerido para la Reto Técnica.
+Esta es la información básica del proceso y las herramientas usadas en el desarrollo del servicio requerido para el reto técnico.
 
 Agradezco la oportunidad y el reto que represento este requerimiento.
 
