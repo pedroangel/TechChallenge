@@ -32,24 +32,26 @@
 			</div>
 		</div>
 	</div>
-	<div class="filter-container">
-		<select
-			class="minimal"
-			name="LeaveType"
-			@change="setListFilter($event)"
-		>
-			<option selected value="num_asc">Lowest Number</option>
-			<option value="num_desc">Highest Number</option>
-			<option value="abc_desc">A - Z</option>
-			<option value="abc_asc">Z - A</option>
-		</select>
-	</div>
-	<div class="pagination-container">
-		<span>Full List</span>
-		<label class="switch">
-			<input type="checkbox" @click="toggleCheckbox" />
-			<div class="slider round"></div>
-		</label>
+	<div class="filter-container-main">
+		<div class="filter-container">
+			<select
+				class="minimal"
+				name="LeaveType"
+				@change="setListFilter($event)"
+			>
+				<option selected value="num_asc">Lowest Number</option>
+				<option value="num_desc">Highest Number</option>
+				<option value="abc_desc">A - Z</option>
+				<option value="abc_asc">Z - A</option>
+			</select>
+		</div>
+		<div class="pagination-container">
+			<span>Full List</span>
+			<label class="switch">
+				<input type="checkbox" @click="toggleCheckbox" />
+				<div class="slider round"></div>
+			</label>
+		</div>
 	</div>
 
 	<div class="container">

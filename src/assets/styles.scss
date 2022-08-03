@@ -32,10 +32,6 @@ html{
     // border-radius: 10px;
 }
 
-.filter-container{
-	padding-bottom: 15px;
-}
-
 #app {
 	/* font-family: Pokemon Hollow, Helvetica, Arial, sans-serif; */
 	font-family: Avenir, Helvetica, Arial, sans-serif;
@@ -959,25 +955,45 @@ $your-pink: #ffcccc;
 	border-radius: 50%;
   }
 
-.pagination-container{
+.filter-container-main{
+
 	display: flex;
-    flex-direction: row;
-    align-content: stretch;
     justify-content: center;
-    align-items: center;
-    padding-bottom: 15px;
 
-	&.bottom{
-		padding-bottom: 50px
+	.filter-container{
+		padding-bottom: 15px;
+		padding-right: 20px;
+
+		@media screen and (max-width: 425px) {
+			padding-right: 0px;
+		}
 	}
 
-	span{
-		font-weight: 800;
-		font-size: 90%;
-		color: $primary-color;
-
-		
+	@media screen and (max-width: 425px) {
+		flex-direction: column;
 	}
+
+	.pagination-container{
+		display: flex;
+		flex-direction: row;
+		align-content: stretch;
+		justify-content: center;
+		align-items: center;
+		padding-bottom: 15px;
+	
+		&.bottom{
+			padding-bottom: 50px
+		}
+	
+		span{
+			font-weight: 800;
+			font-size: 90%;
+			color: $primary-color;
+	
+			
+		}
+	}
+
 }
 
 .alert-message{
